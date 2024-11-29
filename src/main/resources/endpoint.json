@@ -1,0 +1,26 @@
+{
+    "base_url": "https://jsonplaceholder.typicode.com",
+    "endpoints": {
+      "getAllPost": {
+        "endpoint": "/posts",
+        "method": "GET"
+      },
+      "getPostById": {
+        "endpoint": "/posts/{id}",
+        "method": "GET"
+      },
+      "createPost": {
+        "endpoint": "/posts",
+        "method": "POST"
+      },
+      "deletePostById": {
+        "endpoint": "/posts/{id}",
+        "method": "DELETE"
+      },
+      "updatePostById": {
+        "endpoint": "/posts/{id}",
+        "method": "PATCH"
+      }
+    }
+}
+  
